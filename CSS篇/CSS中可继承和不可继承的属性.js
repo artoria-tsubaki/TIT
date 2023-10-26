@@ -24,7 +24,7 @@
  * 
  * 可继承：
  *  1. 字体系列属性
- *    font-family font-size font-weight
+ *    font-family font-size font-weight font-style
  *  2. 文本系列属性
  *    color 
  *    text-align 
