@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <div v-text="inputText"></div>
+    <div v-text="inputValue"></div>
+    <input type="text" v-model="inputValue">
+  </div>
+
+  <script src="./Vue简易响应式原理.js"></script>
+  <script>
+    let vue = new Vue({
+      el: "#app",
+      data: {
+        inputText: 'Artoria',
+        inputValue: ""
+      }
+    })
+  </script>
+</body>
+</html>
